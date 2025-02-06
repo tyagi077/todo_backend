@@ -7,7 +7,7 @@ const {auth,SECRET_KEY}=require("./auth")
 
 
 app.use(express.json())
-mongoose.connect("mongodb+srv://admin:admin%401234@cluster0.1x6s6.mongodb.net/todo-app-database")
+mongoose.connect("")
 
 app.post("/signup",async function(req,res){
     const email = req.body.email
